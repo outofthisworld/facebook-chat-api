@@ -413,7 +413,7 @@ function login(loginData, options, callback) {
     autoMarkDelivery: true,
     autoMarkRead: false,
     logRecordSize: defaultLogRecordSize,
-    userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18"
+    userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"
   };
 
   setOptions(globalOptions, options);
