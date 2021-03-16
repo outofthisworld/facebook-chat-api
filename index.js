@@ -506,8 +506,8 @@ function login(loginData, options, callback) {
 
   var globalOptions = {
     options: {
-      forceLogin: true,
-      logLevel: /^win/.test(process.platform) ? "verbose" : "warn",
+      forceLogin: false,
+      logLevel: /^win/.test(process.platform) ? "verbose" : "verbose",
       listenEvents: true, //
       selfListen: true,
       updatePresence: true,
