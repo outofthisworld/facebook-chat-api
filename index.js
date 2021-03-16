@@ -508,12 +508,12 @@ function login(loginData, options, callback) {
     forceLogin: true,
     logLevel: /^win/.test(process.platform) ? "verbose" : "warn",
     listenEvents: true,
-    selfListen: true,
+    /*selfListen: true,
     updatePresence: true,
     autoMarkDelivery: true,
     autoMarkRead: true,
     userAgent:
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"*/
   };
 
   setOptions(globalOptions, options);
