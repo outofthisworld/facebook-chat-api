@@ -513,7 +513,7 @@ function login(loginData, options, callback) {
     autoMarkDelivery: true,
     autoMarkRead: true,
     userAgent:
-      "Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36"
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"
   };
 
   setOptions(globalOptions, options);
