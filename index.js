@@ -505,17 +505,14 @@ function login(loginData, options, callback) {
   }
 
   var globalOptions = {
-    options: {
-      forceLogin: false,
-      logLevel: /^win/.test(process.platform) ? "verbose" : "verbose",
-      listenEvents: true, //
-      selfListen: true,
-      updatePresence: true,
-      autoMarkDelivery: true,
-      autoMarkRead: true,
-      userAgent:
-        "Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Mobile Safari/537.36"
-    }
+    selfListen: false,
+    listenEvents: false,
+    updatePresence: false,
+    forceLogin: false,
+    autoMarkDelivery: true,
+    autoMarkRead: false,
+    logRecordSize: defaultLogRecordSize,
+    userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18"
   };
 
   setOptions(globalOptions, options);
